@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
-
+import image1 from "../images/utsuwa.jpg";
+import image2 from "../images/coffee.jpg";
+import image3 from "../images/nightmarket.jpg";
 const Works = () => {
   const [header] = useState({
     subHeading: '作品集',
@@ -7,7 +9,7 @@ const Works = () => {
   const [state] = useState([
     {
       id: 1,
-      image: '../images/utsuwa.jpg',
+      image: image1,
       title: "窯 - utsuwa",
       msgimage: "圖片處理 : Ai Ps Xd",
       msgfont: 'Html CSS JS Sass Bootstrap React',
@@ -15,7 +17,7 @@ const Works = () => {
     },
     {
       id: 2,
-      image: '../images/coffee.jpg',
+      image: image2,
       title: "咖啡電商",
       msgimage: "圖片處理 : Ai Ps",
       msgfont: 'Html CSS JS Sass Bootstrap',
@@ -23,7 +25,7 @@ const Works = () => {
     },
     {
       id: 3,
-      image: '../images/nightmarket.jpg',
+      image: image3,
       title: "Fun松饒河趣",
       msgimage: "圖片處理 : Ai Ps",
       msgfont: 'Html CSS JS Flash',
