@@ -41,9 +41,7 @@ const Skills = () => {
           <div class="bg-polygon-three"></div>
           <div class="big-polygon-three"></div>
         </div>
-
       </div>
-
     </div>
     
   )
