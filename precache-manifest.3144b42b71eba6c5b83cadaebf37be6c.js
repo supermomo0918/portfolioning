@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a039cd1b4a8d3c83c4e39ee60fad6730",
+    "revision": "259590775bc3e0878c349ec7fb7de0e2",
     "url": "/portfolioning/index.html"
   },
   {
-    "revision": "0918648be5aceebd08ac",
+    "revision": "13808d297b783a7efc77",
     "url": "/portfolioning/static/css/main.054fd495.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolioning/static/js/2.691ea327.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0918648be5aceebd08ac",
-    "url": "/portfolioning/static/js/main.c0b98a9f.chunk.js"
+    "revision": "13808d297b783a7efc77",
+    "url": "/portfolioning/static/js/main.f12cd98d.chunk.js"
   },
   {
     "revision": "eabcf6cb22b32bf69061",
@@ -25,7 +25,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "92c8d89b3f3c103b1c4d4af145a28b66",
-    "url": "/portfolioning/static/media/coffee.92c8d89b.jpg"
+    "url": "/portfolioning/static/media/coffee.92c8d89b.png"
   },
   {
     "revision": "bb42e29e12137cc52cbdb8a4b42c12e0",
@@ -37,10 +37,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "bd35cb33de99e9c759a441b05a7027b6",
-    "url": "/portfolioning/static/media/nightmarket.bd35cb33.jpg"
+    "url": "/portfolioning/static/media/nightmarket.bd35cb33.png"
   },
   {
     "revision": "ceda0ddd224e28059d16493fce85bc03",
-    "url": "/portfolioning/static/media/utsuwa.ceda0ddd.jpg"
+    "url": "/portfolioning/static/media/utsuwa.ceda0ddd.png"
   }
 ]);
