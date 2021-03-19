@@ -440,6 +440,13 @@ body {
   justify-content: center;
   display: none;
 }
+@media (min-width:766px) and (max-width: 992px) {
+  .col-4{
+    .col-4{
+      width: 50%;
+    }
+  }
+}
 @media (max-width: 765px) {
   .container {
     width: 100%;
