@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import image1 from "../images/utsuwa.jpg";
-import image2 from "../images/coffee.jpg";
-import image3 from "../images/nightmarket.jpg";
+import image1 from "../images/utsuwa.png";
+import image2 from "../images/coffee.png";
+import image3 from "../images/nightmarket.png";
 const Works = () => {
   const [header] = useState({
     subHeading: '作品集',
