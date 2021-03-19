@@ -7,7 +7,7 @@ const Works = () => {
   const [state] = useState([
     {
       id: 1,
-      image: '/images/utsuwa.jpg',
+      image: '../images/utsuwa.jpg',
       title: "窯 - utsuwa",
       msgimage: "圖片處理 : Ai Ps Xd",
       msgfont: 'Html CSS JS Sass Bootstrap React',
@@ -15,7 +15,7 @@ const Works = () => {
     },
     {
       id: 2,
-      image: '/images/coffee.jpg',
+      image: '../images/coffee.jpg',
       title: "咖啡電商",
       msgimage: "圖片處理 : Ai Ps",
       msgfont: 'Html CSS JS Sass Bootstrap',
@@ -23,7 +23,7 @@ const Works = () => {
     },
     {
       id: 3,
-      image: '/images/nightmarket.jpg',
+      image: '../images/nightmarket.jpg',
       title: "Fun松饒河趣",
       msgimage: "圖片處理 : Ai Ps",
       msgfont: 'Html CSS JS Flash',
