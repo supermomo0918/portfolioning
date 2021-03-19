@@ -17,7 +17,7 @@ const Banner = () => {
       "致理科技大學",
     profession:"商務科技管理系 資訊管理學士",
     birth: "生日 : 1994/09/18",
-    image: "https://github.com/supermomo0918/portfolioning/blob/gh-pages/images/me.png",
+    image: "https://github.com/supermomo0918/portfolioning/public/images/me.png",
   });
   return (
     <header className="header">
