@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import image from "../images/me-cute.png";
+import image from "../../images/me-cute.png";
 const About = () => {
   const [header] = useState({
     subHeader: '關於我',
