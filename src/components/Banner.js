@@ -17,7 +17,7 @@ const Banner = () => {
       "致理科技大學",
     profession:"商務科技管理系 資訊管理學士",
     birth: "生日 : 1994/09/18",
-    image: "/images/me.png",
+    image: "/public/images/me.png",
   });
   return (
     <header className="header">
@@ -47,7 +47,7 @@ const Banner = () => {
                 </p>
                 <div className="header__buttons">
                   <a href="https://pda.104.com.tw/profile/preview?vno=759uevaqi" target="_blank" className="btn-outline">
-                    查看更多<FaPlay className="play"/>
+                    查看更多!<FaPlay className="play"/>
                   </a>
                   &nbsp;&nbsp;&nbsp;
                 </div>
