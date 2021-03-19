@@ -5,6 +5,7 @@ import {
   FaEnvelope,
   FaPlay,
 } from "react-icons/fa";
+import image from "./../../public/images/me.png";
 const Banner = () => {
   const [banner] = useState({
     phone:"0905566096",
@@ -17,7 +18,7 @@ const Banner = () => {
       "致理科技大學",
     profession:"商務科技管理系 資訊管理學士",
     birth: "生日 : 1994/09/18",
-    image: "../../../public/images/me.png",
+    image: image,
   });
   return (
     <header className="header">
