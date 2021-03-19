@@ -45,7 +45,7 @@ const Works = () => {
             <div className="col-4" key={Works.id}>
               <div className="work">
                 <div className="workHeading">
-                  <div className="">
+                  <div className="works_img">
                     <img src={Works.image} alt="" width="300" />
                   </div>
                 </div>
