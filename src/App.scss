@@ -333,6 +333,9 @@ body {
   margin: 35px 20px;
   text-align: center;
   box-shadow: 0px 3px 3px 1px rgba($effect-color,.25);
+  &:hover{
+    transform: translateY(-10px) scale(1.0125);
+  }
   .workHeading {
     font-size: 24px;
     font-weight: 700;
