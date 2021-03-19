@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolioning/static/css/main.727f3040.chunk.css",
+    "main.css": "/portfolioning/static/css/main.e7613006.chunk.css",
     "main.js": "/portfolioning/static/js/main.f12cd98d.chunk.js",
     "main.js.map": "/portfolioning/static/js/main.f12cd98d.chunk.js.map",
     "runtime-main.js": "/portfolioning/static/js/runtime-main.4dc8a267.js",
@@ -8,9 +8,9 @@
     "static/js/2.691ea327.chunk.js": "/portfolioning/static/js/2.691ea327.chunk.js",
     "static/js/2.691ea327.chunk.js.map": "/portfolioning/static/js/2.691ea327.chunk.js.map",
     "index.html": "/portfolioning/index.html",
-    "precache-manifest.fb57d3910b1d679f8b6f370389eff8c3.js": "/portfolioning/precache-manifest.fb57d3910b1d679f8b6f370389eff8c3.js",
+    "precache-manifest.ba8d49c45598fd31f7819b7074d7740a.js": "/portfolioning/precache-manifest.ba8d49c45598fd31f7819b7074d7740a.js",
     "service-worker.js": "/portfolioning/service-worker.js",
-    "static/css/main.727f3040.chunk.css.map": "/portfolioning/static/css/main.727f3040.chunk.css.map",
+    "static/css/main.e7613006.chunk.css.map": "/portfolioning/static/css/main.e7613006.chunk.css.map",
     "static/js/2.691ea327.chunk.js.LICENSE.txt": "/portfolioning/static/js/2.691ea327.chunk.js.LICENSE.txt",
     "static/media/coffee.png": "/portfolioning/static/media/coffee.92c8d89b.png",
     "static/media/me.png": "/portfolioning/static/media/me.bb42e29e.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.4dc8a267.js",
     "static/js/2.691ea327.chunk.js",
-    "static/css/main.727f3040.chunk.css",
+    "static/css/main.e7613006.chunk.css",
     "static/js/main.f12cd98d.chunk.js"
   ]
 }
