@@ -5,7 +5,7 @@ import {
   FaEnvelope,
   FaPlay,
 } from "react-icons/fa";
-import image from "./../../public/images/me.png";
+import image from "./../images/me.png";
 const Banner = () => {
   const [banner] = useState({
     phone:"0905566096",
