@@ -5,7 +5,7 @@ const Skills = () => {
     subHeader: '技能',
   })
   return (
-    <div className="Skills">
+    <div className="Skills h-800">
       <div className="container">
         <div className="common">
           <h1 className="mainHeader">{skills.subHeader}</h1>

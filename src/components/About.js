@@ -11,11 +11,14 @@ const About = () => {
     github: 'supermomo0918',
     email: 'su830918ggg@yahoo.com.tw',
   })
+  const aboutstyle = {
+    color: "#aaa3a0"
+  }
   return (
     <div className="about">
       <div className="container">
         <div className="common">
-          <h1 className="mainHeader">{header.subHeader}</h1>
+          <h1 className="mainHeader" style={aboutstyle}>{header.subHeader}</h1>
           <div className="commonBorder"></div>
         </div>
         <div className="row h-800 alignCenter">
@@ -46,7 +49,6 @@ const About = () => {
           </div>
           <div className="col-8">
             <div className="about__info">
-              <h1>自傳</h1>
               <p className="about__info-p1">
                 <strong></strong>
                 我是<strong>蘇椲甯</strong>
