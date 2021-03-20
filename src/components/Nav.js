@@ -18,7 +18,7 @@ const Nav = () => {
           <ul className="navbar__left">
             <div className="navbar__left-logo">
               {/* <img src="/images/logo.png" alt="logo" /> */}
-              <h1 className="logo-font">蘇椲甯的履歷表 </h1>
+              <h1 className="logo-font">蘇椲甯的履歷表</h1>
             </div>
           </ul>
           {state ? (
