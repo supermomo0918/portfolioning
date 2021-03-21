@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4904af754d1d36f51bfa886b0805d5ab",
+    "revision": "9f8b8fcb07dc8bb5c761c030ab2bc734",
     "url": "/portfolioning/index.html"
   },
   {
-    "revision": "f3b6b61dd8c05fc04bdd",
-    "url": "/portfolioning/static/css/main.75be3437.chunk.css"
+    "revision": "98943ae7c4370fe5a9b4",
+    "url": "/portfolioning/static/css/main.33023ab0.chunk.css"
   },
   {
     "revision": "45ba0e45b704e2e6bf1a",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolioning/static/js/2.691ea327.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f3b6b61dd8c05fc04bdd",
-    "url": "/portfolioning/static/js/main.5831d0f8.chunk.js"
+    "revision": "98943ae7c4370fe5a9b4",
+    "url": "/portfolioning/static/js/main.d810b7cc.chunk.js"
   },
   {
     "revision": "eabcf6cb22b32bf69061",
@@ -40,7 +40,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolioning/static/media/nightmarket.bd35cb33.png"
   },
   {
-    "revision": "ceda0ddd224e28059d16493fce85bc03",
-    "url": "/portfolioning/static/media/utsuwa.ceda0ddd.png"
+    "revision": "c0ee6e6a696a3eaf5ab3a09aab045d1d",
+    "url": "/portfolioning/static/media/utsuwa.c0ee6e6a.png"
   }
 ]);
