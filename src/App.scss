@@ -33,7 +33,7 @@ $boxshdow-color: #000;
   }
   @media  (max-width: 765px) {
     .mainHeader{
-      font-size: 24px;
+      font-size: 24px !important;
     }
   }
 }
