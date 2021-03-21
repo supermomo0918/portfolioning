@@ -12,24 +12,27 @@ const Works = () => {
       image: image1,
       title: "窯 - utsuwa",
       msgimage: "圖片處理 : Ai Ps Xd",
-      msgfont: 'Html CSS JS Sass Bootstrap React',
-      msgback: '後端語言/框架 : Node MySQL',
+      msgfont: 'Html CSS JS',
+      msgfonts: 'Sass Bootstrap React',
+      msgback: 'Node MySQL',
     },
     {
       id: 2,
       image: image2,
       title: "咖啡電商",
       msgimage: "圖片處理 : Ai Ps",
-      msgfont: 'Html CSS JS Sass Bootstrap',
-      msgback: '後端語言/框架 : PHP MySQL',
+      msgfont: 'Html CSS JS',
+      msgfonts: 'Sass Bootstrap',
+      msgback: 'PHP MySQL',
     },
     {
       id: 3,
       image: image3,
       title: "Fun松饒河趣",
       msgimage: "圖片處理 : Ai Ps",
-      msgfont: 'Html CSS JS Flash',
-      msgback: '後端語言/框架 : 無',
+      msgfont: 'Html CSS JS',
+      msgfonts: 'Flash',
+      msgback: '無',
     },
 
   ])
@@ -46,7 +49,7 @@ const Works = () => {
               <div className="work">
                 <div className="workHeading">
                   <div className="works_img">
-                    <img src={Works.image} alt="" width="300" />
+                    <img src={Works.image} alt="" width="160" />
                   </div>
                 </div>
                 <div className="work__rs">
@@ -57,6 +60,8 @@ const Works = () => {
                   <li>{Works.msgimage}</li>
                   <li>前端語言/框架 : </li>
                   <li>{Works.msgfont}</li>
+                  <li>{Works.msgfonts}</li>
+                  <li>後端語言/框架 : </li>
                   <li>{Works.msgback}</li>
                 </ul>
                 {/* <div className="work__btn">

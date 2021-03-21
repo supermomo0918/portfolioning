@@ -15,13 +15,13 @@ const About = () => {
     color: "#aaa3a0"
   }
   return (
-    <div className="about">
+    <div className="about h-1000">
       <div className="container">
         <div className="common">
           <h1 className="mainHeader" style={aboutstyle}>{header.subHeader}</h1>
           <div className="commonBorder"></div>
         </div>
-        <div className="row h-800 alignCenter">
+        <div className="row alignCenter about_rwd">
           <div className="col-4">
             <div className="about__img">
               <img src={header.image} />

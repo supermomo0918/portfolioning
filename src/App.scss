@@ -31,6 +31,11 @@ $boxshdow-color: #000;
       margin: 0px auto;
     }
   }
+  @media  (max-width: 765px) {
+    .mainHeader{
+      font-size: 24px;
+    }
+  }
 }
 * {
   margin: 0;
@@ -87,7 +92,7 @@ body {
 }
 /* Helper */
 .container {
-  max-width: 1200px;
+  max-width: 960px;
   margin: 0 auto;
   overflow-x: hidden;
 }
@@ -99,6 +104,9 @@ body {
 }
 .h-800 {
   height: 580px;
+}
+.h-1000{
+  height: 850px;
 }
 .alignCenter {
   align-items: center;
@@ -220,7 +228,7 @@ body {
 .banner__img {
   padding: 0 30px;
   margin-top: 150px;
-  margin-left: 80px;
+  // margin-left: 20px;
   width: 100%;
 }
 /* about */
@@ -285,7 +293,7 @@ body {
   // text-align: center;
   @include common;
   .skill-row{
-    margin: 50px;
+    // margin: 50px;
     display: flex;
     justify-content: center;
     overflow: hidden;
@@ -452,17 +460,24 @@ body {
     width: 100%;
     padding: 0 50px;
   }
+  .about_rwd{
+    display: flex;
+    justify-content: center;
+  }
   .h-650 {
     height: auto;
   }
   .h-800 {
     height: auto;
   }
+  .h-1000 {
+    height: auto;
+  }
   .col-4{
     width: 50%;
   }
   .col-8{
-    width: 50%;
+    width: 100%;
   }
   .banner__img{
     padding: 0 30px;
@@ -480,6 +495,9 @@ body {
   .container {
     width: 100%;
     padding: 0 50px;
+  }
+  .banner__img img {
+    display: none;
   }
   .col-8{
     width: 100%;
@@ -514,6 +532,9 @@ body {
   }
   .skill-rwd{
     margin-top: 30px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
   }
   .toggle {
     display: flex;     
@@ -539,6 +560,9 @@ body {
     height: auto;
   }
   .h-800 {
+    height: auto;
+  }
+  .h-1000 {
     height: auto;
   }
   .about__img {
