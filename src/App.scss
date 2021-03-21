@@ -31,11 +31,6 @@ $boxshdow-color: #000;
       margin: 0px auto;
     }
   }
-  @media  (max-width: 765px) {
-    .mainHeader{
-      font-size: 24px !important;
-    }
-  }
 }
 * {
   margin: 0;
@@ -535,6 +530,9 @@ body {
     margin-left: 50px;
     display: flex;
     flex-direction: column;
+  }
+  .mainHeader{
+    font-size: 24px !important;
   }
   .toggle {
     display: flex;     
