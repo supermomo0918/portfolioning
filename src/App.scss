@@ -181,7 +181,7 @@ body {
       height: 50px;
       // border: 2px solid $effect-color;
       border: 2px solid transparent;
-      box-shadow: 2px 2px 2px 1px rgba($effect-color, .2);
+      box-shadow: 2px 2px 2px 1px rgba($effect-color, 0.2);
       border-radius: 50%;
       display: flex;
       align-items: center;
@@ -214,7 +214,7 @@ body {
     // border: 2px solid $effect-color;
     border-radius: 50px;
     border: 2px solid transparent;
-    box-shadow: 2px 2px 2px 1px rgba($effect-color, .2);
+    box-shadow: 2px 2px 2px 1px rgba($effect-color, 0.2);
     padding: 13px 40px;
     transition: all 0.5s linear;
     &:hover {
@@ -244,7 +244,7 @@ body {
   background: $font-color;
   padding: 100px 0;
   @include common;
-  .about_common{
+  .about_common {
     margin-bottom: 40px !important;
   }
   .about__img {
@@ -307,7 +307,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     overflow: hidden;
-    .skill-rwd{
+    .skill-rwd {
       h2 {
         margin-bottom: 10px;
         color: $font-color;
@@ -483,7 +483,7 @@ body {
   .h-800 {
     height: auto;
   }
-  .h-700{
+  .h-700 {
     height: auto;
   }
   .h-1000 {
@@ -580,7 +580,7 @@ body {
   .h-800 {
     height: auto;
   }
-  .h-700{
+  .h-700 {
     height: auto;
   }
   .h-1000 {
