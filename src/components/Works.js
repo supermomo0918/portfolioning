@@ -28,7 +28,7 @@ const Works = () => {
     {
       id: 3,
       image: image3,
-      title: "Fun松饒河趣",
+      title: "fun松饒河趣",
       msgimage: "圖片處理 : Ai Ps",
       msgfont: 'Html CSS JS',
       msgfonts: 'Flash',

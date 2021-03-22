@@ -7,7 +7,7 @@ $boxshdow-color: #000;
 @mixin common {
   .common {
     width: 33.33333333333333%;
-    margin: 20px auto;
+    margin: 30px auto;
     text-align: center;
     .heading {
       margin-bottom: 20px;
@@ -39,9 +39,10 @@ $boxshdow-color: #000;
 }
 
 body {
-  font-family: "Noto Sans TC";
+  font-family: 'Noto Sans TC';
 }
 .header {
+  margin-top: 50px;
   width: 100%;
   height: 100vh;
   background: $font-color;
@@ -66,7 +67,7 @@ body {
     .navbar__left-logo img {
       width: 110px;
     }
-    .logo-font{
+    .logo-font {
       color: $font-color;
     }
     .navbar__right {
@@ -78,11 +79,11 @@ body {
         font-weight: 500;
         font-size: 20px;
         padding: 0 15px;
-        &:hover{
+        &:hover {
           font-weight: bolder;
         }
       }
-    }    
+    }
   }
 }
 /* Helper */
@@ -100,8 +101,11 @@ body {
 .h-800 {
   height: 580px;
 }
-.h-1000{
-  height: 850px;
+.h-700 {
+  height: 700px;
+}
+.h-1000 {
+  height: 900px;
 }
 .alignCenter {
   align-items: center;
@@ -109,8 +113,8 @@ body {
 .justifyConter {
   justify-content: center;
 }
-.works_img{
-  max-width:100%;
+.works_img {
+  max-width: 100%;
 }
 /* Grid System */
 .row {
@@ -118,13 +122,13 @@ body {
   width: 100%;
   flex-wrap: wrap;
 }
-.columns{
+.columns {
   display: flex;
   flex-direction: column;
 }
-.col-8{
-  width: 65%;
-  margin-left: 15px;
+.col-8 {
+  width: 63%;
+  margin-left: 30px;
 }
 .col-6 {
   width: 50%;
@@ -141,19 +145,19 @@ body {
   height: 100vh;
   width: 100%;
   color: #fff;
-  .header__section{
+  .header__section {
     .banner_name {
       color: $main-color;
       font-size: 55px;
       font-weight: bolder;
     }
-    .banner_nameen{
+    .banner_nameen {
       margin-left: 10px;
       font-size: 50px;
       line-height: 40px;
       font-weight: 500;
     }
-    .banner_work{
+    .banner_work {
       color: $assist-color;
       font-size: 28px;
       line-height: 40px;
@@ -166,7 +170,7 @@ body {
       line-height: 40px;
       font-weight: 500;
     }
-  } 
+  }
   .header__ul {
     list-style-type: none;
     display: flex;
@@ -175,7 +179,9 @@ body {
     li {
       width: 50px;
       height: 50px;
-      border: 2px solid $effect-color;
+      // border: 2px solid $effect-color;
+      border: 2px solid transparent;
+      box-shadow: 2px 2px 2px 1px rgba($effect-color, .2);
       border-radius: 50%;
       display: flex;
       align-items: center;
@@ -185,7 +191,8 @@ body {
       cursor: pointer;
       &:hover {
         background: #fff;
-        border: 2px solid transparent;
+        border: 2px solid $effect-color;
+        box-shadow: none;
         color: $effect-color;
       }
       .headerIcon {
@@ -194,22 +201,27 @@ body {
     }
   }
 }
-.header__buttons{
+.header__buttons {
   margin-top: 50px;
-  a{
+  font-weight: bolder;
+  a {
     outline: none;
     border: none;
     color: $effect-color;
     text-decoration: none;
   }
   .btn-outline {
-    border: 2px solid $effect-color;
+    // border: 2px solid $effect-color;
     border-radius: 50px;
+    border: 2px solid transparent;
+    box-shadow: 2px 2px 2px 1px rgba($effect-color, .2);
     padding: 13px 40px;
     transition: all 0.5s linear;
-    &:hover{
-      border: 2px solid $font-color;
+    &:hover {
+      // border: 2px solid $font-color;
       background: $font-color;
+      border: 2px solid $effect-color;
+      box-shadow: none;
       color: $effect-color;
       font-weight: bolder;
     }
@@ -232,6 +244,9 @@ body {
   background: $font-color;
   padding: 100px 0;
   @include common;
+  .about_common{
+    margin-bottom: 40px !important;
+  }
   .about__img {
     padding: 30px;
     img {
@@ -243,7 +258,7 @@ body {
   .info__contacts {
     margin-top: -50px;
     font-weight: 700;
-    .info__contacts_text{
+    .info__contacts_text {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -256,7 +271,7 @@ body {
         font-size: 18px;
         color: $boxshdow-color;
       }
-      }
+    }
     .col-4 {
       margin: 10px 0;
     }
@@ -269,42 +284,45 @@ body {
       font-size: 24px;
     }
     .about__info-p1 {
-      text-align:justify;
+      text-align: justify;
       font-size: 18px;
       margin-left: 10px;
       margin-bottom: 20px;
-        strong{
-          font-weight: bolder;
-          color: $boxshdow-color;
-        }
+      strong {
+        font-weight: bolder;
+        color: $boxshdow-color;
+      }
     }
   }
 }
 /* Skills */
-.Skills{
+.Skills {
   width: 100%;
   padding: 100px 0;
   background: $main-color;
   // text-align: center;
   @include common;
-  .skill-row{
-    // margin: 50px;
+  .skill-row {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     overflow: hidden;
-    h2{
-      margin-bottom: 10px;
-      color: $font-color;
-    }
-    .skills__ul{
-      font-weight: 700;
-      list-style: none;
-      li{
-        font-size: 18px;
+    .skill-rwd{
+      h2 {
+        margin-bottom: 10px;
+        color: $font-color;
+      }
+      .skills__ul {
+        font-weight: 700;
+        list-style: none;
+        li {
+          font-size: 18px;
+          margin-bottom: 10px;
+        }
       }
     }
   }
-  .bg-polygon-three{
+  .bg-polygon-three {
     margin-top: -220px;
     position: relative;
     width: 0px;
@@ -315,7 +333,7 @@ body {
     border-left: 180px solid transparent;
     border-right: 180px solid transparent;
   }
-  .big-polygon-three{
+  .big-polygon-three {
     margin-top: -220px;
     position: relative;
     width: 0px;
@@ -336,14 +354,14 @@ body {
   @include common;
 }
 .work {
-  background: rgba($font-color,.70);
+  background: rgba($font-color, 0.7);
   // border: 1px solid $effect-color;
   padding: 25px;
   // border-radius: 5px;
   margin: 35px 20px;
   text-align: center;
-  box-shadow: 0px 3px 3px 1px rgba($effect-color,.25);
-  &:hover{
+  box-shadow: 0px 3px 3px 1px rgba(#000, 0.25);
+  &:hover {
     transform: translateY(-10px) scale(1.0125);
   }
   .workHeading {
@@ -361,7 +379,7 @@ body {
   }
   ul {
     list-style-type: none;
-    .works_skill{
+    .works_skill {
       text-align: center;
       font-size: 18px;
     }
@@ -373,21 +391,21 @@ body {
       padding: 5px 0;
     }
   }
-  
+
   .work__btn {
     margin-top: 40px;
     border: 2px solid $effect-color;
     border-radius: 50px;
     padding: 10px 20px;
     transition: all 0.5s linear;
-    &:hover{
+    &:hover {
       margin-top: 40px;
       border: 2px solid $font-color;
       background: $font-color;
       // border-radius: 50px;
       // padding: 13px 40px;
     }
-    a{
+    a {
       text-decoration: none;
       color: $effect-color;
     }
@@ -450,12 +468,12 @@ body {
   justify-content: center;
   display: none;
 }
-@media (min-width:766px) and (max-width: 992px) {
+@media (min-width: 766px) and (max-width: 992px) {
   .container {
     width: 100%;
     padding: 0 50px;
   }
-  .about_rwd{
+  .about_rwd {
     display: flex;
     justify-content: center;
   }
@@ -465,24 +483,27 @@ body {
   .h-800 {
     height: auto;
   }
+  .h-700{
+    height: auto;
+  }
   .h-1000 {
     height: auto;
   }
-  .col-4{
+  .col-4 {
     width: 50%;
   }
-  .col-8{
+  .col-8 {
     width: 100%;
   }
-  .banner__img{
+  .banner__img {
     padding: 0 30px;
     margin-top: 100px;
     margin-left: -50px;
   }
-  .bg-polygon-three{
+  .bg-polygon-three {
     display: none;
   }
-  .big-polygon-three{
+  .big-polygon-three {
     display: none;
   }
 }
@@ -494,7 +515,7 @@ body {
   .banner__img img {
     display: none;
   }
-  .col-8{
+  .col-8 {
     width: 100%;
     margin-left: -15px;
   }
@@ -516,7 +537,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    li{        
+    li {
       display: block;
       margin: 15px auto;
       a {
@@ -525,16 +546,16 @@ body {
       }
     }
   }
-  .skill-rwd{
+  .skill-rwd {
     margin-top: 30px;
     display: flex;
     flex-direction: column;
   }
-  .mainHeader{
+  .mainHeader {
     font-size: 24px !important;
   }
   .toggle {
-    display: flex;     
+    display: flex;
   }
   .banner__img img {
     display: none;
@@ -559,6 +580,9 @@ body {
   .h-800 {
     height: auto;
   }
+  .h-700{
+    height: auto;
+  }
   .h-1000 {
     height: auto;
   }
@@ -566,13 +590,13 @@ body {
     display: flex;
     justify-content: center;
   }
-  .bg-polygon-three{
+  .bg-polygon-three {
     display: none;
   }
-  .big-polygon-three{
+  .big-polygon-three {
     display: none;
   }
-  .work{
+  .work {
     text-align: center;
   }
 }

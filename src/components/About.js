@@ -17,7 +17,7 @@ const About = () => {
   return (
     <div className="about h-1000">
       <div className="container">
-        <div className="common">
+        <div className="common about_common">
           <h1 className="mainHeader" style={aboutstyle}>{header.subHeader}</h1>
           <div className="commonBorder"></div>
         </div>

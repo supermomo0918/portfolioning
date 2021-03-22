@@ -47,7 +47,7 @@ const Banner = () => {
                 {banner.birth}
                 </p>
                 <div className="header__buttons">
-                  <a href="https://pda.104.com.tw/profile/preview?vno=759uevaqi" target="_blank" className="btn-outline">
+                  <a href="https://github.com/supermomo0918" target="_blank" className="btn-outline">
                     查看更多<FaPlay className="play"/>
                   </a>
                   &nbsp;&nbsp;&nbsp;
