@@ -16,7 +16,7 @@ const Skills = () => {
           <div className="col-4 skill-rwd">
             <h2>前端</h2>
             <ul className="skills__ul">
-              <li>網頁響應式切版 - <br/>HTML/CSS、Boostrap RWD</li>
+              <li>網頁響應式切版 - <br/>HTML/CSS、Bootstrap / 手刻 RWD</li>
               <li>CSS模組化 - <br/>Bootstrap + SCSS客製化樣式</li>
               <li>網頁動態效果 - <br/>jQuery、CSS transform</li>
               <li>元件設計/圖片處理 - AI/PS</li>
