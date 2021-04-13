@@ -39,7 +39,7 @@ const Nav = () => {
               <li
                 onClick={() => {
                   window.scrollBy({
-                    top: 1680,
+                    top: 1780,
                     behavior: 'smooth',
                   })
                 }}
@@ -49,7 +49,7 @@ const Nav = () => {
               <li
                 onClick={() => {
                   window.scrollBy({
-                    top: 2380,
+                    top: 2480,
                     behavior: 'smooth',
                   })
                 }}
@@ -59,7 +59,7 @@ const Nav = () => {
               <li
                 onClick={() => {
                   window.scrollBy({
-                    top: 3100,
+                    top: 3300,
                     behavior: 'smooth',
                   })
                 }}
